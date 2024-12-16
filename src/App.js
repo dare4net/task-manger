@@ -22,10 +22,10 @@ async function getTasks() {
     });
 }
 
-async function deleteTask(taskId) {
+/*async function deleteTask(taskId) {
     await deleteDoc(doc(db, "tasks", taskId));
     console.log("Task deleted: ", taskId);
-}
+}*/
 
 
 
